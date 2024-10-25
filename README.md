@@ -1,3 +1,23 @@
+## Running the Code
+To get started, open 01_Inha_InSAR.ipynb. This notebook covers each step required for:
+- Data preprocessing
+- Neural network design and validation
+- Post-processing
+- Visualization of results
+
+## Repository Contents
+1. **01_Inha_InSAR.ipynb:** Main notebook with step-by-step workflow for InSAR data processing and analysis.
+1. **InSAR.npy & TVERDPLGEO.npy:** Datasets capturing surface elevation changes derived from InSAR data.
+1. **ensemble_101.npz:** 3D channelized CO2 storage training data ensemble.
+1. **abstract.pdf:** Complete abstract detailing the study.
+## Questions or Feedback?
+Please reach out to eunssiri@inha.edu or honggeun.jo@inha.ac.kr.
+
+![image]('./CURE_logo.png')
+
+---
+Below is the abstract for the presentation at the Fall 2024 KSMER Conference:
+
 # Development of Geological Carbon Storage Modeling with a Deep Learning-based Generative Workflow Integrating InSAR-Derived Subsurface Displacement
 ### 심층학습 생성모델 기반 InSAR 지표 높이 변화자료를 활용한 이산화탄소 지중저장소 모델링 공정 개발
 
