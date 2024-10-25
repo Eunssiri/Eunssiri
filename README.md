@@ -13,7 +13,7 @@ To get started, open 01_Inha_InSAR.ipynb. This notebook covers each step require
 ## Questions or Feedback?
 Please reach out to eunssiri@inha.edu or honggeun.jo@inha.ac.kr.
 
-![image]('[./CURE_logo.png](https://github.com/Eunssiri/Inha_InSAR/blob/main/CURE_logo.png)')
+![image](https://github.com/Eunssiri/Inha_InSAR/blob/main/CURE_logo.png)
 
 ---
 Below is the abstract for the presentation at the Fall 2024 KSMER Conference:
