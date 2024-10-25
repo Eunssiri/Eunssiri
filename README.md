@@ -4,11 +4,24 @@
 ### Authors: Eunsil Park; Hyunmin Kim
 ### Affiliation: [INHA_ERE](https://eneres.inha.ac.kr/eneres/index.do), [CURE_lab](https://petroinha.github.io/)
 
+Geological carbon storage (GCS) is a key technology for achieving carbon neutrality.
+However, scaling GCS to a commercial level requires thorough monitoring and validation of underground storage sites.
+The development of GCS in saline aquifers faces significant uncertainties in reservoir characterization due to limited initial observational data.
+These uncertainties create challenges for leakage risk assessment and future CO2 plume prediction.
+Therefore, integrating all available observational data after CO2 injection begins is crucial for building reliable reservoir models.
 
-Geological carbon storage (GCS) is crucial for carbon neutrality, 
-but requires thorough monitoring and validation due to uncertainties in reservoir characterization, especially in saline aquifers. 
-This study integrates InSAR data with deep learning generative models to characterize reservoir facies and porosity, applying it to a channelized aquifer model. 
-Using 4,000 geological scenarios and THMC simulations, 
-the approach quantifies uncertainties and improves future CO2 plume predictions, offering a reliable tool for GCS modeling and forecasting.
+In this study, we propose a method that integrates InSAR data with deep learning generative models to characterize reservoir facies and porosity.
+This method is applied to a channelized aquifer model in an anticlinal structure to test its practicality.
+We generate 4,000 static geological models using geostatistical methods based on different geological scenarios.
+Then, we simulate surface uplift caused by pressure changes during three years of CO2 injection using a THMC model.
+These simulations are used as training and validation data for the deep learning generative model.
+
+During training, we apply dropout techniques and incorporate observational errors from real surface displacement data.
+This allows us to create a variety of reservoir models that maintain geological plausibility.
+Our approach enables the quantification of uncertainties.
+
+The proposed method characterizes channelized aquifers by integrating surface displacement data.
+This helps assess uncertainty and predict future CO2 plume behavior.
+It is expected to be a valuable tool for reliable CO2 reservoir modeling and future forecasting in GCS projects.
 
 Should you have any question, please contact us via hogggeun.jo@inha.ac.kr
