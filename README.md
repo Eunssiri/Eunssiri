@@ -13,7 +13,7 @@ Therefore, integrating all available observational data after CO2 injection begi
 In this study, we propose a method that integrates InSAR data with deep learning generative models to characterize reservoir facies and porosity.
 This method is applied to a channelized aquifer model in an anticlinal structure to test its practicality.
 We generate 4,000 static geological models using geostatistical methods based on different geological scenarios.
-Then, we simulate surface uplift caused by pressure changes during three years of CO2 injection using a THMC model.
+Then, we simulate surface uplift caused by pressure changes during 5 years of CO2 injection using a THMC model.
 These simulations are used as training and validation data for the deep learning generative model.
 
 During training, we apply dropout techniques and incorporate observational errors from real surface displacement data.
